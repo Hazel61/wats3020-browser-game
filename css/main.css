@@ -24,6 +24,14 @@
     padding: 3rem;
     margin-top: 2rem;
 }
+.btn-success {
+    background-color: #007bff;;
+    border-color: #007bff;
+}
+.btn-success:hover {
+  background-color: #80bdff;
+}
+
 #gameboard {
     background-color: rgba(253, 255, 252, 0.1);
 }
