@@ -19,7 +19,7 @@
     z-index: 1000;
 }
 #win-screen .container, #draw-screen .container {
-    background: rgba(253, 255, 252, 1);
+    background: white;
     color: rgba(10, 46, 54, 1);
     padding: 3rem;
     margin-top: 2rem;
@@ -35,7 +35,7 @@
 }
 .tile {
     background: rgba(253, 255, 252, 0.2);
-    color: rgba(150, 154, 151, 1);
+    color: #80bdff;
     width: 90%;
     min-width: 75px;
     height: 90%;
@@ -47,12 +47,12 @@
     cursor: pointer;
 }
 .tile:hover {
-    color: rgba(39, 251, 107, 1);
+    color: crimson;
     background: rgba(253, 255, 252, 0.1);
 
 }
 .tile.played {
-    color: rgba(255, 186, 8, 1);
+    color: crimson;
     background: rgba(253, 255, 252, 0.1);
     cursor: pointer;
 }
@@ -61,12 +61,12 @@
 }
 
 body {
-    background-color: rgba(10, 46, 54, 1);
+    background-color: rgba(10, 46, 145, 1);
     width: 90%;
     margin: auto;
 }
 html {
-    background-color: rgba(10, 46, 54, 1);
+    background-color: rgba(10, 46, 145, 1);
 }
 
 /* colors */
@@ -80,7 +80,15 @@ html {
 .phthalo-green-color {
     color: rgba(10, 46, 54, 1);
 }
-
+.nice-green-color {
+    color: cadetblue;
+}
+.nice-blue-color {
+    color: #80bdff;
+}
+.bright-red-color {
+    color: crimson;
+}
 .selective-yellow-color {
     color: rgba(255, 186, 8, 1);
 }
